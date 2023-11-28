@@ -174,14 +174,15 @@ RegisterNumber:  23011639
 
 2)D flip flop
 
-![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/e9dc2f23-581f-42cf-9092-c4d60fcef32c)
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/baeb6fe3-6649-44c5-9b52-15b123ffdcf1)
+
 
 
 
 3)JK flip flop
 
-![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/feac0a07-77d7-4e05-8e68-46a2d9583a8f)
 
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/e607d783-6a8c-444d-a009-01750e7bbf80)
 
 
 
