@@ -213,15 +213,15 @@ SR Flip Flop
 
 D Flip Flop
 
-![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/84d400f1-d62f-4a72-995f-b54da0d1321a)
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/be783f8b-ddc1-4f3e-9c63-83bb14acb90b)
 
 
 
 
 JK Flip Flop
 
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/0e61189a-0cde-4300-aa3c-fc8a749e1536)
 
-![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/f370a292-a02e-41d7-b8fe-b447b3ae09e1)
 
 T Flip Flop
 
