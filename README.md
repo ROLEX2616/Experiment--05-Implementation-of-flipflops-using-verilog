@@ -102,15 +102,61 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+1.	Create a New Project:
+
+Open Quartus and create a new project by selecting "File" > "New Project Wizard."
+Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
+2.	Create a New Design File:
+
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File."
+Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language.
+3.	Write the Combinational Logic Code:
+
+Open the newly created Verilog or VHDL file and write the code for your combinational logic.
+4.	Compile the Project:
+To compile the project, click on "Processing" > "Start Compilation" in the menu.
+Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device.
+5.	Analyze and Fix Errors:
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window.
+Review and fix any issues in your code if necessary. View the RTL diagram.
+6.	Verification:
+
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+ 
+Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All.
+Give the Input Combinations according to the Truth Table amd then simulate the
+Output Waveform.
+
+
 
 
 
 ### PROGRAM 
+
+1)SR flipflop
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/fc483d7a-d9d9-402a-9372-68da6c26dd4c)
+
+
+2)D flipflop
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/cfaabb8f-72f0-46e8-bd1a-45bde7bb0c0c)
+
+
+3)JK flip flop
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/1fc2e8e3-f63f-421d-b4e8-552ffb0e661a)
+
+
+4)T flip flop
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/464e45f9-d37a-404c-b4f7-040f3ec04ee1)
+
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Kavinraj S
+RegisterNumber:  23011639
 */
 
 
@@ -119,6 +165,34 @@ RegisterNumber:
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
+
+1)SR flip flop
+
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/cb38fe4c-b52d-4cc3-a693-d02ef7aa20f7)
+
+
+2)D flip flop
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/e9dc2f23-581f-42cf-9092-c4d60fcef32c)
+
+
+
+3)JK flip flop
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/feac0a07-77d7-4e05-8e68-46a2d9583a8f)
+
+
+
+
+4)T flip flop
+
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/e33575f3-43f8-446c-a0e0-82918795caa5)
+
+
+
+
 
 
 
@@ -131,10 +205,33 @@ RegisterNumber:
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
 
+SR Flip Flop
 
 
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/45fd4d4c-ffe1-4343-b5f7-fbdd855c5fd8)
+
+
+D Flip Flop
+
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/a7562325-ffad-49af-9bb4-df388d1cfd61)
+
+
+JK Flip Flop
+
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/b38cf1e3-bc61-4d55-aa6f-5aa5119a7a4d)
+
+
+
+T Flip Flop
+
+
+![image](https://github.com/ROLEX2616/Experiment--05-Implementation-of-flipflops-using-verilog/assets/149988469/d483094a-70a0-45d6-b796-17a5ef7908e9)
 
 
 
 
 ### RESULTS 
+
+By this we have verified the truth table of JK and SR using verilog.
